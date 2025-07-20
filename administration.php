@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Administration - AIUB</title>
+  <link rel="stylesheet" href="style.css"/>
+  <link rel="icon" type="image/png" href="image/aiublogo.png">
+</head>
+<body>
+  <!-- Header -->
+  <header class="top-header">
+    <!-- Top Info Bar -->
+    <div class="top-info-bar">
+      <div class="left-text">
+        American International University-Bangladesh
+      </div>
+      <div class="right-links">
+        <span class="icon">🔍</span>
+        <a href="login.php">Login</a> |
+        <a href="webmail.php">Web Mail</a> |
+        <a href="contact_us.php">Contact Us</a>
+      </div>
+    </div>
+
+    <div class="main-header">
+      <img src="image/aiublogo.png" alt="AIUB Logo" class="logo" />
+      <nav class="navbar">
+        <a href="index.php">Home</a>
+        <a href="about.php">About</a>
+        <a href="academic.php">Academic</a>
+        <a href="administration.php">Administration</a>
+        <a href="admission.php">Admission</a>
+        <a href="research.php">Research</a>
+        <a href="notice.php">Notice</a>
+        <a href="contact_us.php">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Administration Content -->
+  <div class="admission-container">
+    <div class="section-title">Professor Dr. Saiful Islam</div>
+    <div style="text-align:center;">
+      <img src="image/din.jpg" alt="Dr. Saiful Islam" style="width:150px; border-radius:50%; margin-bottom:10px;" />
+      <p style="font-size: 18px; font-weight: bold;">Vice Chancellor, American International University-Bangladesh (AIUB)</p>
+      <p style="font-size: 14px; color: #555;">PhD (Electrical Engg.), MSc (Engg. Electrical), BSc (Engg. Electrical)</p>
+    </div>
+
+    <div class="policy-boxes" style="margin-top: 30px;">
+      <div class="policy-box">
+        <h4>Education</h4>
+        <ul>
+          <li>PhD in Electrical Engineering</li>
+          <li>MSc (Engg. Electrical)</li>
+          <li>BSc (Engg. Electrical)</li>
+        </ul>
+        <h4 style="margin-top:15px;">Professional Memberships</h4>
+        <p>Details Coming Soon</p>
+      </div>
+
+      <div class="policy-box">
+        <h4>Academic Leadership</h4>
+        <ul>
+          <li><strong>2024-Present:</strong> Vice-Chancellor, AIUB</li>
+          <li><strong>2015:</strong> Vice-Chancellor, Leading University</li>
+          <li><strong>2010-2014:</strong> Vice-Chancellor, Islamic University of Technology (IUT)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-title">Academic Achievements</div>
+    <ul>
+      <li>Recipient of Chancellor's Award for Excellence (2020)</li>
+      <li>Published 50+ papers in indexed journals</li>
+      <li>Member, National Accreditation Council</li>
+    </ul>
+
+    <div class="section-title">Visiting Positions</div>
+    <ul>
+      <li>Visiting Professor, Kyushu Institute of Technology, Japan</li>
+      <li>Guest Speaker, University of British Columbia, Canada</li>
+    </ul>
+
+    <div class="section-title">Research Areas</div>
+    <div class="policy-boxes">
+      <div class="policy-box">
+        <h4>Research Fields</h4>
+        <ul>
+          <li>Power Systems</li>
+          <li>Smart Grid</li>
+          <li>Control Engineering</li>
+        </ul>
+      </div>
+      <div class="policy-box">
+        <h4>Professional Expertise</h4>
+        <ul>
+          <li>Leadership in Higher Education</li>
+          <li>Academic Accreditation</li>
+          <li>Research Supervision</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section-title">Specialized Studies</div>
+    <ul>
+      <li>Advanced Electrical Machines</li>
+      <li>Renewable Energy Integration</li>
+      <li>AI in Engineering Education</li>
+    </ul>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer about-footer">
+    <div class="footer-content">
+      <div class="footer-left">
+        <img src="image/aiublogo.png" alt="AIUB Logo" class="logo" />
+        <p>American International University-Bangladesh (AIUB)</p>
+        <p>Where leaders are created</p>
+        <div class="social-icons">
+          <a href="#"><img src="image/fb.jpeg" alt="Facebook"></a>
+          <a href="#"><img src="image/twt.png" alt="Twitter"></a>
+          <a href="#"><img src="image/lindin.png" alt="LinkedIn"></a>
+          <a href="#"><img src="image/yt.png" alt="YouTube"></a>
+        </div>
+      </div>
+
+      <div class="footer-center">
+        <h4>Contact</h4>
+        <p>Email: info@aiub.edu</p>
+        <p>Address: 408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka-1229</p>
+        <p>Phone: +88 02 841 4046-9; +88 02 841 4050</p>
+      </div>
+
+      <div class="footer-right">
+        <h4>Become AIUBian</h4>
+        <ul>
+          <li><a href="#">Future Students</a></li>
+          <li><a href="#">On Campus</a></li>
+          <li><a href="#">Admission</a></li>
+          <li><a href="#">Tuition Fees</a></li>
+          <li><a href="#">Scholarships</a></li>
+          <li><a href="#">Apply Now</a></li>
+        </ul>
+        <h4>Academic</h4>
+        <ul>
+          <li><a href="#">Academic Calendar</a></li>
+          <li><a href="#">Academic Regulations</a></li>
+          <li><a href="#">Faculty of Arts & Social Sciences</a></li>
+          <li><a href="#">Faculty of Business Administration</a></li>
+          <li><a href="#">Faculty of Engineering</a></li>
+          <li><a href="#">Faculty of Science & Technology</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

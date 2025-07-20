@@ -1,0 +1,85 @@
+<?php
+// isn2022.php - International Symposium on Nanotechnology 2022 Page
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ISN2022 - International Symposium on Nanotechnology</title>
+  <link rel="stylesheet" href="nanotechnology.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <img src="aiub-logo.png" alt="AIUB Logo" class="logo" />
+      <h1>International Symposium on Nanotechnology 2022 (ISN2022)</h1>
+      <p class="subtitle">Theme: NanoTech for SDGs</p>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#overview">Overview</a></li>
+      <li><a href="#schedule">Schedule</a></li>
+      <li><a href="#speakers">Speakers</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main class="container">
+    <section id="overview">
+      <h2>Overview</h2>
+      <p>
+        The International Symposium on Nanotechnology 2022 (ISN2022) was held on January 24, 2022, organized by the Center for Nanotechnology Research (CNR) at AIUB. The symposium aimed to bring together researchers, industry professionals, and students to discuss advancements in nanotechnology and its role in achieving Sustainable Development Goals (SDGs).
+      </p>
+    </section>
+
+    <section id="schedule">
+      <h2>Schedule</h2>
+      <ul>
+        <li>10:00 AM - Inauguration</li>
+        <li>10:30 AM - Keynote Speech</li>
+        <li>11:00 AM - Keynote Speech</li>
+        <li>11:30 AM - Tea Break</li>
+        <li>11:45 AM - Invited Speech</li>
+        <li>12:00 PM - Poster Competition</li>
+        <li>01:00 PM - Lunch Break</li>
+        <li>02:00 PM - Invited Speech</li>
+        <li>02:30 PM - Keynote Speech</li>
+        <li>03:00 PM - Host Speech</li>
+        <li>03:30 PM - Tea Break</li>
+        <li>03:45 PM - Invited Talk</li>
+        <li>04:15 PM - Panel Discussion</li>
+        <li>05:15 PM - Closing Ceremony</li>
+        <li>06:00 PM - BBQ Night</li>
+      </ul>
+    </section>
+
+    <section id="speakers">
+      <h2>Speakers</h2>
+      <ul>
+        <li>M. A. Mannan, MP, Honorable Minister, Ministry of Planning, Government of Bangladesh</li>
+        <li>Engr. D M Majibor Rahman, Group Chairman, SEBL Group</li>
+        <li>Dr. Carmen Z. Lamagna, Vice Chancellor, AIUB</li>
+        <!-- Add more speakers as needed -->
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:info@aiub.edu">info@aiub.edu</a></p>
+      <p>Address: 408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka 1229, Bangladesh</p>
+      <p>Phone: +88 02 841 4046-9; +88 02 841 4050</p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; 2025 American International University-Bangladesh (AIUB)</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

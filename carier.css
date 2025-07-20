@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 700px;
+  margin: auto;
+}
+
+.job-card {
+  background-color: #ffffff;
+  border: 2px solid #0077b6;
+  padding: 16px 20px;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #333;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s;
+}
+
+.job-card:hover {
+  transform: translateY(-3px);
+}
+
+.date {
+  display: block;
+  color: #555;
+  margin-top: 8px;
+  font-size: 14px;
+}

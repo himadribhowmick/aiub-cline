@@ -1,0 +1,95 @@
+<?php
+// innovations.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innovations | AIUB</title>
+  <link rel="stylesheet" href="innovations.css"/>
+</head>
+<body>
+  <header>
+    <div class="topbar">American International University-Bangladesh</div>
+    <nav class="navbar">
+      <div class="logo">AIUB</div>
+      <ul>
+        <li>About</li>
+        <li>Academics</li>
+        <li>Admission</li>
+        <li>On Campus</li>
+        <li>Administration</li>
+        <li>Research</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h1>Innovations</h1>
+    </section>
+
+    <section class="content">
+      <div class="innovation-grid">
+
+        <!-- AIUB Robotic Crew (ARC) -->
+        <div class="card">
+          <h4>AIUB Robotic Crew (ARC)</h4>
+          <p><strong>Project:</strong> University Rover Challenge (URC)</p>
+          <p><strong>Details:</strong> Participated in URC by designing and building a rover for early explorers on Mars, held annually at the Mars Desert Research Station.</p>
+        </div>
+
+        <!-- Solar Electric Vehicle -->
+        <div class="card">
+          <h4>Solar Electric Vehicle</h4>
+          <p><strong>Focus:</strong> Environmentally friendly and economically viable solar cars</p>
+          <p><strong>Details:</strong> Developed three prototypes to reduce CO2 emissions and limit global temperature rise through collaboration between faculty and students.</p>
+        </div>
+
+        <!-- Let's Furnish -->
+        <div class="card">
+          <h4>Let's Furnish</h4>
+          <p><strong>Type:</strong> Furniture and appliances rental platform</p>
+          <p><strong>Details:</strong> Bangladesh's only platform where people can rent/subscribe to furniture and appliances as long as they want. Contributors: B M Mohaiminul Islam Rahul, Efaz Ahmed, Tauhid Ul Alam.</p>
+        </div>
+
+        <!-- Human Prosthetic Hand -->
+        <div class="card">
+          <h4>Design and Implementation of A Human Prosthetic Hand</h4>
+          <p><strong>Focus:</strong> Affordable prosthetic solutions</p>
+          <p><strong>Details:</strong> Aimed to provide a cheaper alternative to robotic prosthetics for individuals disabled due to accidents or wartime injuries.</p>
+        </div>
+
+        <!-- Joy Bangla Youth Award 2015 -->
+        <div class="card">
+          <h4>Student of AIUB - Winner of ‘Joy Bangla Youth Award’ 2015</h4>
+          <p><strong>Event:</strong> Joy Bangla Youth Award</p>
+          <p><strong>Details:</strong> Recognized for contributions in various fields during the ceremony organized by the Center for Research and Information on 2nd May 2015.</p>
+        </div>
+
+        <!-- Power & Energy Week Innovation Expo 2018 -->
+        <div class="card">
+          <h4>Engineering Students Awarded in Power & Energy Week Innovation Expo 2018</h4>
+          <p><strong>Event:</strong> Power & Energy Hackathon 2018</p>
+          <p><strong>Details:</strong> Ministry of Power, Energy & Mineral Resources hosted a three-day event to inspire young ideas and dynamic innovations in the energy industry of Bangladesh.</p>
+        </div>
+
+        <!-- Assistive Exoskeleton for Paralyzed People -->
+        <div class="card">
+          <h4>Assistive Exoskeleton for Paralyzed People</h4>
+          <p><strong>Focus:</strong> Mobility aid for paralyzed individuals</p>
+          <p><strong>Details:</strong> Developed a hydraulic-powered exoskeleton built on industrial steel with a synthetic hydraulic system to help paralyzed people move their legs and walk.</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AIUB. All rights reserved.</p>
+  </footer>
+
+  <script src="innovations.js"></script>
+</body>
+</html>

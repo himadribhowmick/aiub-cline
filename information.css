@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f7f9fb;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+.navbar {
+  background-color: #004a99;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+.navbar nav {
+  margin-top: 10px;
+}
+
+.navbar a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/* Page Title */
+.page-title {
+  text-align: center;
+  margin: 20px;
+  font-size: 28px;
+  color: #333;
+}
+
+/* Faculty Section */
+.faculty-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.faculty-images {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.faculty-images div {
+  background-color: #004a99;
+  color: white;
+  padding: 30px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-align: center;
+  flex: 1;
+}
+
+.degree-listing h4 {
+  margin-top: 20px;
+  color: #004a99;
+}
+
+.degree-listing ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Chart Section */
+.chart-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.chart-box {
+  background-color: #e3e3e3;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #555;
+}
+
+/* Organization Section */
+.organization-section {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+}
+
+.organization-section h4 {
+  color: #004a99;
+  margin-top: 20px;
+}
+
+.organization-section ul {
+  list-style-type: square;
+  padding-left: 20px;
+}

@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apply Online - University Admission</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f0f2f5;
+      padding: 30px;
+    }
+
+    .form-container {
+      max-width: 800px;
+      background: #fff;
+      padding: 30px;
+      margin: auto;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: bold;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    input[type="date"],
+    input[type="tel"],
+    select,
+    textarea {
+      width: 100%;
+      padding: 12px;
+      margin-bottom: 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+
+    input[type="file"] {
+      margin-bottom: 20px;
+    }
+
+    textarea {
+      resize: vertical;
+      min-height: 80px;
+    }
+
+    .checkbox {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .checkbox input {
+      margin-right: 10px;
+    }
+
+    button {
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      padding: 14px 24px;
+      font-size: 16px;
+      border-radius: 8px;
+      cursor: pointer;
+      display: block;
+      margin: auto;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    .section-title {
+      margin-top: 30px;
+      margin-bottom: 10px;
+      font-size: 18px;
+      border-bottom: 2px solid #007bff;
+      padding-bottom: 5px;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <h2>Apply Online - University Admission Form</h2>
+    <form action="submit_application.php" method="post" enctype="multipart/form-data">
+      
+      <div class="section-title">Personal Information</div>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="dob">Date of Birth</label>
+      <input type="date" id="dob" name="dob" required>
+
+      <label for="gender">Gender</label>
+      <select id="gender" name="gender" required>
+        <option value="">Select Gender</option>
+        <option>Male</option>
+        <option>Female</option>
+        <option>Other</option>
+      </select>
+
+      <label for="nationality">Nationality</label>
+      <input type="text" id="nationality" name="nationality" required>
+
+      <label for="photo">Upload Passport Size Photo</label>
+      <input type="file" name="photo" accept="image/*" required>
+
+      <div class="section-title">Contact Information</div>
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" required>
+
+      <label for="address">Address</label>
+      <textarea id="address" name="address" required></textarea>
+
+      <div class="section-title">Academic Information</div>
+      <label for="ssc">SSC/Equivalent Result</label>
+      <input type="text" id="ssc" name="ssc" placeholder="GPA/Division/Board" required>
+
+      <label for="hsc">HSC/Equivalent Result</label>
+      <input type="text" id="hsc" name="hsc" placeholder="GPA/Division/Board" required>
+
+      <label for="certificate">Upload Academic Certificates (PDF)</label>
+      <input type="file" name="certificate" accept="application/pdf" required>
+
+      <div class="section-title">Program Selection</div>
+      <label for="program">Select Program</label>
+      <select id="program" name="program" required>
+        <option value="">Choose a Program</option>
+        <option>B.Sc. in CSE</option>
+        <option>BBA</option>
+        <option>B.Sc. in EEE</option>
+        <option>B.A. in English</option>
+        <option>B.Sc. in Architecture</option>
+      </select>
+
+      <label for="semester">Preferred Semester</label>
+      <select id="semester" name="semester" required>
+        <option value="">Choose Semester</option>
+        <option>Fall 2025</option>
+        <option>Spring 2026</option>
+        <option>Summer 2026</option>
+      </select>
+
+      <div class="checkbox">
+        <input type="checkbox" id="declaration" name="declaration" required>
+        <label for="declaration">I hereby declare that the information provided is accurate to the best of my knowledge.</label>
+      </div>
+
+      <button type="submit">Submit Application</button>
+    </form>
+     <div style="text-align: right; margin-bottom: 20px;">
+  <a href="index.php" style="background-color: #6c757d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 6px;">← Back to Home</a>
+</div>
+  </div>
+</body>
+</html>

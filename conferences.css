@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  color: #333;
+}
+
+.header {
+  background: #06582a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 30px auto;
+  padding: 0 15px;
+}
+
+.conference {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-left: 5px solid #06582a;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.conference h2 {
+  margin-top: 0;
+}
+
+.conference a {
+  display: inline-block;
+  margin-top: 10px;
+  color: #06582a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.conference a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  background: #f1f1f1;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}

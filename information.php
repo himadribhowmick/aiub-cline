@@ -1,0 +1,98 @@
+<?php
+// general-info.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AIUB - General Information</title>
+  <link rel="stylesheet" href="information.css" />
+  <script src="information.js"></script>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <h1>American International University-Bangladesh</h1>
+      <nav>
+        <a href="#">ABOUT</a>
+        <a href="#">ACADEMICS</a>
+        <a href="#">ADMISSION</a>
+        <a href="#">ON CAMPUS</a>
+        <a href="#">ADMINISTRATION</a>
+        <a href="#">RESEARCH</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <h2 class="page-title">General Information</h2>
+
+    <section class="faculty-section">
+      <h3>Degrees Offered at Present</h3>
+      <div class="faculty-images">
+        <div>FASS</div>
+        <div>FBA</div>
+        <div>FF</div>
+        <div>FHLS</div>
+        <div>FST</div>
+      </div>
+
+      <div class="degree-listing">
+        <h4>Faculty of Arts and Social Science (FASS)</h4>
+        <ul>
+          <li>BA in English</li>
+          <li>MA in English</li>
+        </ul>
+
+        <h4>Faculty of Business Administration (FBA)</h4>
+        <ul>
+          <li>BBA – Major options</li>
+          <li>MBA – Major options</li>
+        </ul>
+
+        <h4>Faculty of Science and Technology (FST)</h4>
+        <ul>
+          <li>BSc in Computer Science and Engineering</li>
+          <li>MSc in CS</li>
+        </ul>
+
+        <h4>Faculty of Engineering (FE)</h4>
+        <ul>
+          <li>BSc in EEE</li>
+          <li>MSc in EEE</li>
+        </ul>
+
+        <h4>Faculty of Health and Life Sciences (FHLS)</h4>
+        <ul>
+          <li>Bachelor of Pharmacy</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="chart-section">
+      <h3>Degree Conferred</h3>
+      <div class="chart-box">[Chart Placeholder]</div>
+    </section>
+
+    <section class="organization-section">
+      <h3>Organization</h3>
+      <p><strong>Location:</strong> AIUB Campus, 408/1, Kuratoli, Khilkhet, Dhaka</p>
+
+      <h4>Chancellor</h4>
+      <p>President of Bangladesh</p>
+
+      <h4>Vice Chancellor</h4>
+      <p>Dr. Carmen Z Lamagna</p>
+
+      <h4>Members</h4>
+      <ul>
+        <li>Dr. A.B.M. Siddique Hossain</li>
+        <li>Dr. Tazul Islam</li>
+        <li>Prof. Dr. S.M. Mahfuzur Rahman</li>
+        <li>And more...</li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
