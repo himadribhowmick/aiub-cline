@@ -1,0 +1,57 @@
+<?php
+// scholarships.php
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AIUB Scholarships</title>
+  <link rel="stylesheet" href="scholarships.css" />
+</head>
+<body>
+  <header>
+    <h1>Scholarship Opportunities</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Admissions</a></li>
+        <li><a href="#">Programs</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="scholarship-list">
+      <h2>Available Scholarships</h2>
+      <ul>
+        <li>
+          <h3>Academic Merit Scholarship</h3>
+          <p>For students with outstanding academic records.</p>
+        </li>
+        <li>
+          <h3>Need-Based Financial Aid</h3>
+          <p>Assistance for students demonstrating financial need.</p>
+        </li>
+        <li>
+          <h3>Dr. Anwarul Abedin Scholarship Grant for Female University Students</h3>
+          <p>A scholarship dedicated to empowering female students.</p>
+        </li>
+        <!-- Add more scholarships as needed -->
+      </ul>
+    </section>
+
+    <section class="application-info">
+      <h2>How to Apply</h2>
+      <p>Interested students should contact the admissions office for application procedures and deadlines.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 American International University-Bangladesh</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

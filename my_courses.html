@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>University Homepage</title>
+<style>
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+header {
+  background: #004080;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+nav {
+  background: #eee;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: #004080;
+  font-weight: bold;
+}
+section {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+h2 {
+  color: #004080;
+  text-align: center;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  margin-top: 20px;
+}
+.card {
+  background: #f4f4f4;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+footer {
+  background: #004080;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+.hero {
+  background: url('image/campus-drone-shot-25-june-2024.webp') center/cover no-repeat;
+  height: 300px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2em;
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.5);
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>American International University-Bangladesh</h1>
+  <p>Where Leaders are Created</p>
+</header>
+
+<nav>
+  <a href="#">Home</a>
+  <a href="#notices">Notices</a>
+  <a href="#news">News & Events</a>
+  <a href="#courses">My Courses</a>
+  <a href="#faculties">Faculties</a>
+  <a href="#admissions">Admissions</a>
+  <a href="#research">Research</a>
+  <a href="#studentlife">Student Life</a>
+  <a href="#contact">Contact</a>
+  <a href="student_login.php">Student Login</a>
+  <a href="faculty_login.php">Faculty Login</a>
+</nav>
+
+<div class="hero">
+  Welcome to AIUB
+</div>
+
+<section id="notices">
+  <h2>📢 Notices & Announcements</h2>
+  <div class="grid">
+    <div class="card">Notice 1: Class schedule updated</div>
+    <div class="card">Notice 2: Exam routine published</div>
+    <div class="card">Notice 3: Campus closed on Friday</div>
+  </div>
+</section>
+
+<section id="news">
+  <h2>📰 News & Events</h2>
+  <div class="grid">
+    <div class="card">Event 1: Convocation 2025</div>
+    <div class="card">Event 2: TechFest Hackathon</div>
+    <div class="card">Event 3: Alumni Meet</div>
+  </div>
+</section>
+
+<section id="courses">
+  <h2>📚 My Courses</h2>
+  <p style="text-align:center;">
+    <a href="my_courses.php" style="
+      display: inline-block;
+      padding: 10px 20px;
+      background: #007bff;
+      color: white;
+      text-decoration: none;
+      border-radius: 4px;
+    ">View My Courses →</a>
+  </p>
+</section>
+
+<section id="faculties">
+  <h2>🏛️ Faculties & Programs</h2>
+  <div class="grid">
+    <div class="card">Faculty of Engineering</div>
+    <div class="card">Faculty of Business Administration</div>
+    <div class="card">Faculty of Arts & Social Sciences</div>
+    <div class="card">Faculty of Science & Technology</div>
+  </div>
+</section>
+
+<section id="admissions">
+  <h2>🎓 Admissions</h2>
+  <div class="grid">
+    <div class="card">How to Apply</div>
+    <div class="card">Scholarships</div>
+    <div class="card">Tuition & Fees</div>
+    <div class="card">Admission Requirements</div>
+  </div>
+</section>
+
+<section id="research">
+  <h2>🔬 Research & Innovation</h2>
+  <div class="grid">
+    <div class="card">Research Labs</div>
+    <div class="card">Publications</div>
+    <div class="card">Ongoing Projects</div>
+  </div>
+</section>
+
+<section id="studentlife">
+  <h2>🎉 Student Life</h2>
+  <div class="grid">
+    <div class="card">Clubs & Societies</div>
+    <div class="card">Sports & Recreation</div>
+    <div class="card">Campus Life</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>📞 Contact & About</h2>
+  <p style="text-align:center;">
+    Email: info@aiub.edu <br>
+    Phone: +8802 8414046-9 <br>
+    Address: 408/1 (Old KA 66/1), Kuratoli, Khilkhet, Dhaka-1229
+  </p>
+</section>
+
+<footer>
+  &copy; 2025 American International University-Bangladesh. All rights reserved.
+</footer>
+
+</body>
+</html>

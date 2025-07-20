@@ -1,0 +1,74 @@
+<?php
+// past-conferences.php - Past Conferences Page for AIUB
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Past Conferences | AIUB</title>
+  <link rel="stylesheet" href="pastConferences.css"/>
+</head>
+<body>
+  <header>
+    <div class="topbar">American International University-Bangladesh</div>
+    <nav class="navbar">
+      <div class="logo">AIUB</div>
+      <ul>
+        <li>About</li>
+        <li>Academics</li>
+        <li>Admission</li>
+        <li>On Campus</li>
+        <li>Administration</li>
+        <li>Research</li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="banner">
+      <h1>Past Conferences</h1>
+    </section>
+
+    <section class="content">
+      <aside class="sidebar">
+        <h3>Research Overview</h3>
+        <ul>
+          <li>AIUB Network of Excellence</li>
+          <li>Collaborating Institutes</li>
+          <li>Innovations</li>
+          <li>International Symposium</li>
+          <li><strong>Past Conferences</strong></li>
+          <li>Research Center</li>
+          <li>Upcoming Conferences</li>
+        </ul>
+      </aside>
+
+      <div class="conference-grid">
+        <!-- Sample Conference Card -->
+        <div class="card">
+          <img src="https://i.ibb.co/ZXNQ6LP/icrest2021.png" alt="ICREST 2021" />
+          <h4>ICREST 2021 - International Conference on Robotics, Electrical and Signal Processing Techniques</h4>
+          <p><strong>Date:</strong> 07 January 2021</p>
+          <p><strong>Location:</strong> American International University-Bangladesh</p>
+        </div>
+
+        <div class="card">
+          <img src="https://i.ibb.co/Z1RWJWx/nano2020.jpg" alt="Nano 2020" />
+          <h4>International Symposium on Nanotechnology 2020</h4>
+          <p><strong>Date:</strong> 12 March 2020</p>
+          <p><strong>Location:</strong> AIUB Campus</p>
+        </div>
+
+        <!-- Add more cards as needed -->
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 AIUB. All rights reserved.</p>
+  </footer>
+
+  <script src="pasrConferences.js"></script>
+</body>
+</html>
